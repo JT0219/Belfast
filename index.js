@@ -21,18 +21,19 @@ if(message.author.bot) return;
 
     if(message.content.includes('Nigga')){
         message.delete();
-        message.author.send('Mate, racist langauge isn\'t allowed.')
+        message.author.send('Mate, racist langauge isn\'t allowed.');
     }
     if(message.content.includes('Nigger')){
         message.delete();
-        message.author.send('Mate, racist language isn\'t allowed.')    
+        message.author.send('Mate, racist language isn\'t allowed.');
+    }
     if(message.content.includes('nigga')){
         message.delete();
-        message.author.send('Mate, racist langauge isn\'t allowed.')
+        message.author.send('Mate, racist langauge isn\'t allowed.');
     }
     if(message.content.includes('nigger')){
         message.delete();
-        message.author.send('Mate, racist language isn\'t allowed.')
+        message.author.send('Mate, racist language isn\'t allowed.');
     }
     if(message.content == 'Hello, Belfast'){
         message.channel.send('Hi there, mate!');
